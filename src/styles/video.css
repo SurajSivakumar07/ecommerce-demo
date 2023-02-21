@@ -1,0 +1,34 @@
+video{
+
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.videoWrap{
+    position: relative;
+}
+
+.navcontent{
+    position: absolute;
+    top: 10%;
+    right: 32%;
+    font-size: 20px;
+}
+ .searchcontent{
+    position: absolute;
+    top: 2%;
+    left: 18%;
+ }
+ .titlehcontent{
+
+    position: absolute;
+    /* top: 50; */
+    top: 50%;
+    left: 30%;
+    text-align: center;
+ }
+
+
+/* media */
+
+ 

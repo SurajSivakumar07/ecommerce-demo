@@ -1,0 +1,20 @@
+.navWrap{
+    display: flex;
+}
+.navBar ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navBar li{
+    margin: 10px;
+    list-style: none;
+    color: white;
+    opacity: .8;
+}
+
+
+ 
+i{
+    color: black;
+}

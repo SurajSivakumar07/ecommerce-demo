@@ -1,0 +1,89 @@
+.clothing img{
+    width: 400px;
+    border: 2px solid black;
+    box-shadow: 15px 10px 10px black;
+    height: 500px;
+    opacity: .8;
+    margin-top: 2em;
+
+     transition-property: width;
+    transition-duration:1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+     
+}
+
+.clothing{
+    width: 450px;
+    height: 750px;
+    margin-left: 7em;
+    position: relative;
+
+    
+    
+
+
+}
+ 
+.description{
+    margin-top: 4em;
+}
+.description h3{
+    text-align: center;
+}
+.whole{
+    background-image: url("../assests/bgimg1.jpg");
+    background-size: cover;
+}
+.apiwrap{
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.btnwrap{
+    display: flex;
+    justify-content: center;
+}
+.btnwrap button{
+    padding: 10px;
+    background:none;
+    border-color: black;
+    border-radius: 2cm;
+}
+
+.clothing img:hover{ 
+    opacity: 1;
+    width: 550px;
+    height: 700px;
+    border-radius: 2cm;
+    display: block;
+}
+
+.hovercart button
+{
+    padding: 40px;
+    background:none;
+    border-color: black;
+    border-radius: 2cm;
+    color: white;
+}
+.hovercart{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: none;
+}
+
+.mennav a{
+    color: black;
+    font-size: 20px;
+   position: sticky;
+    top: 0%;
+}
+
+
+
+
+ 

@@ -1,0 +1,65 @@
+.itemsWrap img{
+    width: 300px;
+    height: 400px;
+}
+.searchBar {
+    text-align: center;
+}
+.searchBar h2{
+    font-family: cursive;
+}
+
+.searchBar input{
+    padding: 10px;
+    outline: navajowhite;
+    border-radius: 2cm;
+
+}
+.itemsWrap {
+    width: 340px;
+    height: 600px;
+    margin-left: 60px;
+}
+.videocontext {
+    position: relative;
+}
+.prodWrap {
+    position: absolute;
+    top: 0;
+}
+.productitems{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btnwraprod button {
+   padding: 10px;
+   background: none;
+   border: 1px solid black;
+   cursor: pointer;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+
+
+
+.cato {
+    display: flex;
+    justify-content: center;
+
+}
+.cato button{
+    margin-left: 20px;
+    margin: 10px 0px 30px 20px;
+    padding: 10px;
+    border-radius: 1cm;
+    
+
+}
+
+#filter{
+    text-align: center;
+    margin-top: 10px;
+    font-family: cursive;
+}

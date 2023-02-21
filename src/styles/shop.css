@@ -1,0 +1,60 @@
+
+
+.shopsear{
+
+background-image: url(" ../assests/bgimg1.jpg");
+height: 100vh;
+width: 100%;
+background-size: cover;
+}
+
+.shopsear video{
+    height:600px;
+    width: 400px;
+}
+.wraping{
+ 
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.men{
+    margin-top: 5%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 1px black;
+    position: relative;
+   
+}
+.women{
+    margin-top: 5%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 1px black;
+    position: relative;
+}
+.menshop{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+
+}
+
+.menshop button{
+    padding: 10px;
+    border-radius: 2cm;
+    background: none;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.shopnav{
+    border: 2px solid transparent;
+    padding-top: 40px;
+ }
+
+ .shopnav a{
+    font-size: 20px;
+    opacity: 1;
+ }
+
+ 
+ 

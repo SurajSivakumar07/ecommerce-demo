@@ -1,0 +1,21 @@
+.subtitle{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.shopbtn{
+    border: none;
+    text-align: center;
+}
+.shopbtn button {
+
+    padding: 10px; 
+    border: none;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    
+
+}
